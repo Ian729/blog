@@ -20,7 +20,7 @@ https://chrome.google.com/webstore/detail/scripty-javascript-inject/milkbiaeapdd
 
 在下图界面填入名称和规则。
 
-我们希望**网址**中**包含**https://dts-szv.clouddragon.huawei.com/DTSPortal/ticket/的时候自动执行代码
+我们希望**网址**中**包含**https://dts-szv.clouddragon.huawei.com/DTSPortal/ticket/ 的时候自动执行代码
 
 Run script if **URL Contains https://dts-szv.clouddragon.huawei.com/DTSPortal/ticket/**
 
