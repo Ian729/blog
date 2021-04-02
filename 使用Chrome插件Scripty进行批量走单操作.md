@@ -10,31 +10,31 @@
 
 https://chrome.google.com/webstore/detail/scripty-javascript-inject/milkbiaeapddfnpenedfgbfdacpbcbam
 
-![image-20210311162613801](C:\Users\z00568298\AppData\Roaming\Typora\typora-user-images\image-20210311162613801.png)
+![scripty_1](./pic/scripty_1.png)
 
 ## Step 2 添加脚本
 
 点击Scripty图标，选择Add New Script
 
-![image-20210311162718011](C:\Users\z00568298\AppData\Roaming\Typora\typora-user-images\image-20210311162718011.png)
+![scripty_2](./pic/scripty_2.png)
 
 在下图界面填入名称和规则。
 
-我们希望**网址**中**包含**https://dts-szv.clouddragon.huawei.com/DTSPortal/ticket/的时候自动执行代码
+我们希望**网址**中**包含**https://dts-szv.clouddragon.huawei.com/DTSPortal/ticket/ 的时候自动执行代码
 
 Run script if **URL Contains https://dts-szv.clouddragon.huawei.com/DTSPortal/ticket/**
 
 记得勾选触发条件为 **Automatically On Page load** 在页面加载完成后自动触发
 
-![image-20210311162928454](C:\Users\z00568298\AppData\Roaming\Typora\typora-user-images\image-20210311162928454.png)
+![scripty_3](./pic/scripty_3.png)
 
 JavaScript Code取决于你想做什么事，在这里我们希望自动走单，首先需要配置问题单模板，此处略，在配置完模板之后，我们可以通过右击我们希望选中的模板名(测试模板)并点开**检查(N)**来审查元素
 
-![image-20210311163522848](C:\Users\z00568298\AppData\Roaming\Typora\typora-user-images\image-20210311163522848.png)
+![scripty_4](./pic/scripty_4.png)
 
 如下图
 
-![image-20210311163827596](C:\Users\z00568298\AppData\Roaming\Typora\typora-user-images\image-20210311163827596.png)
+![scripty_5](./pic/scripty_5.png)
 
 通过单击选中li元素（重要：确保选中的是**li元素(list item)**而不是div或者span），并右键->Copy->Copy selector，这li元素的的selector地址就被复制到了粘贴板，并把selector地址替换进document.querySelector(selector地址)
 
@@ -63,7 +63,7 @@ function(){
 
 第二行代码同理，右键提交并审查元素
 
-![image-20210311170635403](C:\Users\z00568298\AppData\Roaming\Typora\typora-user-images\image-20210311170635403.png)
+![scripty_6](./pic/scripty_6.png)
 
 右键button元素并复制selector地址
 
@@ -83,7 +83,7 @@ function(){
 
 http://www.openurls.com.cn/
 
-![image-20210311170933795](C:\Users\z00568298\AppData\Roaming\Typora\typora-user-images\image-20210311170933795.png)
+![scripty_7](./pic/scripty_7.png)
 
 把网址复制到文本框中点击打开
 
